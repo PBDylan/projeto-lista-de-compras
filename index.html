@@ -18,16 +18,52 @@
         <h1>Compras da semana</h1>
       </div>
     </nav>
-    <section class="first-sec">  
-      <form>
-        <label for="nome"></label>
-        <input type="text" id="item-form" name="item-name" placeholder="Adicione um novo item" required>
-      </form>
-      <button>
-        Adicionar item
-      </button>
-    </section>
-    <main></main>
+    <main>
+      <section class="first-sec">
+        <form>
+          <label for="nome"></label>
+          <input
+            type="text"
+            id="item-form"
+            name="item-name"
+            placeholder="Adicione um novo item"
+            required
+          />
+        </form>
+        <button>Adicionar item</button>
+      </section>
+      <section class="secondary-sec">
+        <div class="elements">
+          <label class="box">
+            <input type="radio" name="opcao" value="1" />
+            <span>Opção 1</span>
+            <div class="trash-icon"></div>
+          </label>
+          <label class="box">
+            <input type="radio" name="opcao" value="1" />
+            <span>Opção 1</span>
+            <div class="trash-icon"></div>
+          </label>
+          <label class="box">
+            <input type="radio" name="opcao" value="1" />
+            <span>Opção 1</span>
+            <div class="trash-icon"></div>
+          </label>
+          <label class="box">
+            <input type="radio" name="opcao" value="1" />
+            <span>Opção 1</span>
+            <div class="trash-icon"></div>
+          </label>
+        </div>
+      </section>
+      <section class="message">
+        <div class="alert">
+          <img src="src/img/warning-circle-filled.svg" alt="" />
+          <h3>O item foi removido da lista</h3>
+          <button>X</button>
+        </div>
+      </section>
+    </main>
 
     <script src="script.js"></script>
   </body>
