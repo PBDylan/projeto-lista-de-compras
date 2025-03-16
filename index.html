@@ -30,34 +30,13 @@
             required
           />
         </form>
-        <button>Adicionar item</button>
+        <button id="add-item-button">Adicionar item</button>
       </section>
       <section class="secondary-sec">
-        <div class="elements">
-          <label class="box">
-            <input type="radio" name="opcao" value="1" />
-            <span>Opção 1</span>
-            <div class="trash-icon"></div>
-          </label>
-          <label class="box">
-            <input type="radio" name="opcao" value="1" />
-            <span>Opção 1</span>
-            <div class="trash-icon"></div>
-          </label>
-          <label class="box">
-            <input type="radio" name="opcao" value="1" />
-            <span>Opção 1</span>
-            <div class="trash-icon"></div>
-          </label>
-          <label class="box">
-            <input type="radio" name="opcao" value="1" />
-            <span>Opção 1</span>
-            <div class="trash-icon"></div>
-          </label>
-        </div>
+        <div class="elements" id="box-list"></div>
       </section>
       <section class="message">
-        <div class="alert">
+        <div class="alert" style="display: none">
           <img src="src/img/warning-circle-filled.svg" alt="" />
           <h3>O item foi removido da lista</h3>
           <button>X</button>
